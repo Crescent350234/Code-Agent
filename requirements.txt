@@ -1,0 +1,9 @@
+# 本项目核心实现仅依赖 Python 标准库，无需安装任何第三方包即可运行
+# （Mock 演示模式与真实 LLM 的 HTTP 调用均使用 urllib 实现）。
+#
+# 若希望使用 FastAPI + Uvicorn 提供更完善的 Web 服务（可选，非必需），可取消注释：
+# fastapi>=0.110.0
+# uvicorn>=0.29.0
+#
+# 安装命令（仅在使用可选 Web 服务时需要）：
+#   pip install -r requirements.txt
